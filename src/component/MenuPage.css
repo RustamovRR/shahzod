@@ -1,0 +1,47 @@
+.menu-container {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.list-box {
+    margin-top: 50px;
+}
+
+::-webkit-scrollbar {
+    border: 1px solid #949494;
+    opacity: 0.1;
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-thumb {
+    background: #00B533;
+    height: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00B533;
+    height: 5px;
+}
+
+.list-box a {
+    display: flex;
+    text-decoration: none;
+    color: unset;
+    margin: 15px 0;
+    color: grey;
+}
+
+.list-box a:hover {
+    color: #222;
+}
+
+.foot-box{
+    margin-top: 280px;
+}
